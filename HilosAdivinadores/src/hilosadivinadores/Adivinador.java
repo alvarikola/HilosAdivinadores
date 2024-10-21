@@ -11,7 +11,7 @@ public class Adivinador extends Thread{
         this.id = id;
     }
 
-    // Lógica del hilo: Probar a adivinar un número aleatorio hasta que alguien acierte.
+    // Adivinar un número aleatorio hasta que alguien acierte.
     @Override
     public void run() {
         Random rand = new Random();
