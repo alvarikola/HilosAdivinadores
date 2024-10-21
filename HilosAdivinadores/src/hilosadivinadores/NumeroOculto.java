@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class NumeroOculto {
     private int numeroOculto;
-    private boolean adivinado = false; // Para saber si ya fue adivinado por algún hilo.
+    private boolean adivinado = false; // Para saber si ya fue adivinado
 
    
     public NumeroOculto() {
